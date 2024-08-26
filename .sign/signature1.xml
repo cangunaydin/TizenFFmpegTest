@@ -1,0 +1,970 @@
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="DistributorSignature">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"></CanonicalizationMethod>
+<SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"></SignatureMethod>
+<Reference URI=".vscode%2Fsettings.json">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>Y4RgzAV24HZLiSmSWRNgqle2lDn5n2Zdxr2Ugx6na3G7pW1Wf8+TunUpA8sxcVTHYUDAw3HPp79q
+XheQ4AwpdQ==</DigestValue>
+</Reference>
+<Reference URI="author-signature.xml">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>rDKJYlYFtVvrJOQ5EQkHvWy6yae7+UYAhTlsq9ZygMUUHvIWqtmdIzYDtHbeGalXS8IXd+J1AQQm
+sUEFjWCpKg==</DigestValue>
+</Reference>
+<Reference URI="bun33s.mp4">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>NiNz2CWY6WDn9xWNuxg7orIbPayAnyVLFBH1ieAno4H9ZAbf/hXkqMjgD/+J1lCAm2In1jX/jiwo
+wfjl2F86tA==</DigestValue>
+</Reference>
+<Reference URI="config.xml">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>aVHCrdDMP2lAf8W2cMal3YktfbWjr8VAOm0XUrzKRPW2saXcfdMz4RvhcsiTtPWjmwO5CdoSbjOe
+sbvMrDQ0OQ==</DigestValue>
+</Reference>
+<Reference URI="css%2Fstyle.css">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>TbxD+UTALvcf27/peZ/4iU0zX4nhK1y68X8OrTBl+uVMf3nJYQaipJluvF5l+rfb9sRbl2STRMub
+zChbIJzbsg==</DigestValue>
+</Reference>
+<Reference URI="icon.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>BTGBG483ma/3HgWnreWF2xbdzr4F0gTRWjwxoSV+7kKBWt4UJTuv5WE4DhKdU4in2kwn/55O/qPD
+bNc/wgCuGg==</DigestValue>
+</Reference>
+<Reference URI="index.html">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>H8MbhSIfXSmeFJkGwWXxQCIeRYwdziOz/VR3b+r7IC4jgZPHOanhxux5W8R2KZ7ucHzuO3nEVGZW
+gzlESPkA1g==</DigestValue>
+</Reference>
+<Reference URI="main.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>z4PhNX7vuL3xVChQ1m2AB9Yg5AULVxXcg/SpIdNs6c5H0NE8XYXysP+DGNKHfuwvY7kxvUdBeoGl
+ODJ6+SfaPg==</DigestValue>
+</Reference>
+<Reference URI="player.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>me/3qDkT6lgxAhuWZrqDU/cy5P3e2KGH5MLhEN00E4kZA/ZWIMJoL9F+Z7CvcLHP6giOAs4UjqaQ
+DAnNI/uWwA==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2F.cproject">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>Dw+wvD5dcXRTqChdhsN/Le6gFCj1W4lAvf7RgBO4fDW01jo9X0AfN9x3gq78ArFzZGeK2/W6/AJk
+WDPa2BdUTQ==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2F.project">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>z4pxb2WSUdat1XREGqGsz3hth8Oy6xFgvsj2BKX/Q02+grxjTPtfSxzmeG5oIWVBCb/A0HbVRV4l
+ah6EpGZV1A==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2F.settings%2Flanguage.settings.xml">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>FiXkHz3bDiQGl7r8xK1u5IOy3wuO/mymBN7VLi+zAcCC3cSGLg0ipHR3p2n+2lmJQwoo5vBeVMZe
+YOQr1byp1g==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2F.settings%2Forg.eclipse.cdt.core.prefs">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>e/v3C6XzKjcl4UW4vW9XAT3+tEKHbQI5ympQ9pnihD5P1BbIGup2fpi+c79JIfW/9Tpj/pDypl3t
+Oq+dgvv2HA==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2F.settings%2Forg.tizen.web.tv.sec.wasm.preferences.prefs">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>94A50sPfJ2KcGLi1AgY8L0roN4aetRkaXt2CK9IG867KKaIz9Us+UF2J/TSFa6uY5KO4dYImciCh
+QxFO8/R6fA==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2FCurrentBin%2Fffmpeg_module.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>on1Cex3k2DUdY0A9BO8a+oiB9KI37Q8jjmrzolzY+L5DQ1YfROd3xAoFYnjfAVba14U/4qRICRnq
+uhBlN5spRw==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2FCurrentBin%2Fffmpeg_module.js.mem">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>dfSUuLOd/aahooR1+PZ4Sqn7kZY/Ct/lis8IWVf4oBzQ9+HtxQpNb8v0/VYzRRAEBZ+zF7M0fE7q
+6EQubnX0/A==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2FCurrentBin%2Fffmpeg_module.wasm">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>zJX/5KO1DEB95TPE9ziEY78/GgAW71tOP/EJvzq+a1piNziM/Xv8DtI80QK2f7IVIJnh/wDWXRzU
+qhSlhX/I8w==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2FCurrentBin%2Fffmpeg_module.wasm.map">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>6ll71alxZp5keZCUK8AhR/oYdSEGsexVkidKqHuOYQsmEPLh64Pe4boyun5VZpb++21DZTTB8YcX
+3zPkEtHYrQ==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2FCurrentBin%2Fffmpeg_module.wast">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>ZR5f5bJYtJj1cheVQDdvX+mrEdYa66dT+gb+erZ9Q7sPWCLYqgZyWD5Wxk+pbA/Xw5BWbAOGiXF0
+bkfQFmVWbQ==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2FCurrentBin%2Fffmpeg_module.worker.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>quL/ZaGhThW8r0G99TCN+6hkZ/s3cLysVWL6ZIZ+EifE3NRJUCL2LIEIbBSwMhn2+hfge9KqFmm/
+eCiuON3nTA==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2FCurrentBin%2Fmakefile">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>EH2DQ2/0LlfydmcmSVS0A8Un6vlO1kGP3c7OzPmDz8qSyIg7sZFOKbOmnpeMiX4qZSfe3nGeVF2l
+cTFd0w240g==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2FCurrentBin%2Fobjects.mk">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>q65IwKWx6E76MPVuyTGRAoaTneDj7+pYwvjqsq/c2yx+Y6SBIYugbOwhTjrHGbeTb0BOnsRtSYmx
+IJ1otAaj2A==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2FCurrentBin%2Fsources.mk">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>9Ze/HlGTRrJTuBCtqbmtfGaL06p3mDLUyr0QIq7BmPvZfgD4kYKR4rO/TSLRohgEy9o54jxgST9+
+wz3evWtunw==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2FCurrentBin%2Fsrc%2FVideoDecoder.d">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>Rg/hIYJs6dHPordmFKsFaWYVpDKomxDKNbHplR1drp/Z0CtxxFF2duv0MyIl0ITrIaxl7jpg2Epd
+pqOT8fMjiQ==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2FCurrentBin%2Fsrc%2FVideoDecoder.o">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>l7CAPcb6LTWtrdO1p/1IamT4KzWeKLbGsLDyShcvrj1Dwuv6xRoBKaLEqstSUis/8xQLoyLsGXMz
+4NbwPjW7HQ==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2FCurrentBin%2Fsrc%2FVideoPlayer.d">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>fEIAjNoFMFsFY8uhBW2cdbs/Vkpu13LB+vMbX9qBH286VHuDQr8pT+gXOVcVoNP3eE46eDMkx4BO
+p6qurXDn7g==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2FCurrentBin%2Fsrc%2FVideoPlayer.o">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>Mpi3h2tCRjy6G4cp0nDuCguFI1Rs0hNN5u7N+D9ycLY04c/FiyCMeN8OxqlTpYH4bZr6mUVDP1HV
+K/ILPwhTAg==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2FCurrentBin%2Fsrc%2Fsubdir.mk">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>OUvREgmvDdxpfyx5vfu8p67ZbhuI1SoRYPxe+ZGFHhpyDxEd1oRlutAZCusUqC8xslpAq/Y4kazW
+PonndeQmXw==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2FDebug%2Fffmpeg_module.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>on1Cex3k2DUdY0A9BO8a+oiB9KI37Q8jjmrzolzY+L5DQ1YfROd3xAoFYnjfAVba14U/4qRICRnq
+uhBlN5spRw==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2FDebug%2Fffmpeg_module.js.mem">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>dfSUuLOd/aahooR1+PZ4Sqn7kZY/Ct/lis8IWVf4oBzQ9+HtxQpNb8v0/VYzRRAEBZ+zF7M0fE7q
+6EQubnX0/A==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2FDebug%2Fffmpeg_module.wasm">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>zJX/5KO1DEB95TPE9ziEY78/GgAW71tOP/EJvzq+a1piNziM/Xv8DtI80QK2f7IVIJnh/wDWXRzU
+qhSlhX/I8w==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2FDebug%2Fffmpeg_module.wasm.map">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>6ll71alxZp5keZCUK8AhR/oYdSEGsexVkidKqHuOYQsmEPLh64Pe4boyun5VZpb++21DZTTB8YcX
+3zPkEtHYrQ==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2FDebug%2Fffmpeg_module.wast">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>ZR5f5bJYtJj1cheVQDdvX+mrEdYa66dT+gb+erZ9Q7sPWCLYqgZyWD5Wxk+pbA/Xw5BWbAOGiXF0
+bkfQFmVWbQ==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2FDebug%2Fffmpeg_module.worker.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>quL/ZaGhThW8r0G99TCN+6hkZ/s3cLysVWL6ZIZ+EifE3NRJUCL2LIEIbBSwMhn2+hfge9KqFmm/
+eCiuON3nTA==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2FDebug%2Fmakefile">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>EH2DQ2/0LlfydmcmSVS0A8Un6vlO1kGP3c7OzPmDz8qSyIg7sZFOKbOmnpeMiX4qZSfe3nGeVF2l
+cTFd0w240g==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2FDebug%2Fobjects.mk">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>q65IwKWx6E76MPVuyTGRAoaTneDj7+pYwvjqsq/c2yx+Y6SBIYugbOwhTjrHGbeTb0BOnsRtSYmx
+IJ1otAaj2A==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2FDebug%2Fsources.mk">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>9Ze/HlGTRrJTuBCtqbmtfGaL06p3mDLUyr0QIq7BmPvZfgD4kYKR4rO/TSLRohgEy9o54jxgST9+
+wz3evWtunw==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2FDebug%2Fsrc%2FVideoDecoder.d">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>Rg/hIYJs6dHPordmFKsFaWYVpDKomxDKNbHplR1drp/Z0CtxxFF2duv0MyIl0ITrIaxl7jpg2Epd
+pqOT8fMjiQ==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2FDebug%2Fsrc%2FVideoDecoder.o">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>l7CAPcb6LTWtrdO1p/1IamT4KzWeKLbGsLDyShcvrj1Dwuv6xRoBKaLEqstSUis/8xQLoyLsGXMz
+4NbwPjW7HQ==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2FDebug%2Fsrc%2FVideoPlayer.d">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>fEIAjNoFMFsFY8uhBW2cdbs/Vkpu13LB+vMbX9qBH286VHuDQr8pT+gXOVcVoNP3eE46eDMkx4BO
+p6qurXDn7g==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2FDebug%2Fsrc%2FVideoPlayer.o">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>Mpi3h2tCRjy6G4cp0nDuCguFI1Rs0hNN5u7N+D9ycLY04c/FiyCMeN8OxqlTpYH4bZr6mUVDP1HV
+K/ILPwhTAg==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2FDebug%2Fsrc%2Fsubdir.mk">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>OUvREgmvDdxpfyx5vfu8p67ZbhuI1SoRYPxe+ZGFHhpyDxEd1oRlutAZCusUqC8xslpAq/Y4kazW
+PonndeQmXw==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavcodec%2Fac3_parser.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>Eg4ZBPj80nh5LVhu/1xBcJ96jNL6DoVSouvtbRYYYYZ5CFugZK5sT76kdX19k2pBQuvvXpovsYb2
+5GgXnOZRHA==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavcodec%2Fadts_parser.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>PRR7pOk/rfNUn5FXxA1k9KjBVhLGOCfTFH0Jj1gEN/KXe8f5J/mVQQZqKW9RwaDi+Yueg3rSYnPT
+qvXB/7YBiA==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavcodec%2Favcodec.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>r9LgOWUEJkSpnZt0R9TrVodEt0utCRCKvQZ9xTP03nRsnXwZy2je9AB0S+ThKMt11ZHorK5yYHih
+1J721t22eA==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavcodec%2Favdct.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>3iHv2Bafp3ni1A7xgPZ3efdOCSTnJSj7ZnP4/PLSwJALObZEielTUhDnWbQKek5NMwWdVL2jRBb8
+EURPwSCOPw==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavcodec%2Favfft.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>vQwt1CzRHQMfig43IErLZJ7wR9rUxp1ch5LCRUc21P2hdMF8WeyqAqoV/JJG7TZDw8b4rIzR0JGK
+tg4YeT06tg==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavcodec%2Fbsf.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>80SRgv+egIyV4SKWgIm7zhw/nN8PtRkF9gyzlX+MWg6YeaZq4tJOapAOr6+aWo2PWXL6Nj/VxDkc
+CLWHpXbPEw==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavcodec%2Fcodec.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>RGuXTWr+cpYJenRM9mohNAQCFfjDov2noJPSzWvemWcGdUH4k1X5a4WuO+HkGfKAaJ+KYzbJqzsK
+r/e7A4kBkA==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavcodec%2Fcodec_desc.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>fhHegLvsCqK7tawXWPKLUr3FBn3HUaRAAIIwPJ55FhdTvWEoAyKAoZUfJTTrdDX/JsyoC4eLNVvI
+qLj09wvVaw==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavcodec%2Fcodec_id.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>VlQH3ubNO122v19ycXH++VM3j73TuVXw6zJu0K8F/9WDl7xhIVYShewM6YfDki6rT0GnUHg+3sfo
+DtTUjjlvww==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavcodec%2Fcodec_par.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>DHSsMJvAawZpYtKIeSc3TBrAb1LN303fTp8WV/Qqyiz8/LJnVM4rQFMUtM01R3VaYsklSPe5r45y
+WDExoKZ4VQ==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavcodec%2Fd3d11va.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>neA4qffW4UsXo+IhoUh8+5sNa9Svu5t812SeJ/E3l323QwTafMDSGhXlDmUQi/gKQ0sJvs3GnrM1
+NfkKK1ZDag==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavcodec%2Fdefs.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>OlQBPBw+bwWNaWFdAbmx3RP2Iw/FzqdLmM/lsUBZuC3XDJVYyEDrz1U+xKGFsp9bHyRWX26t4kR1
+3X8v9NkpXQ==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavcodec%2Fdirac.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>Xhq0G95k19ogzYQiTiWDenu92rtIuomIKgXaP1NDee0rcC6W7s/mVRrvrZ1FmFSWziLTK6G7INM+
+xwTG55qeQA==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavcodec%2Fdv_profile.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>2rnlK1QCT3Fmdvzm4k9jWWikTyfJ+fxR9W2Z5ooRV64/l4BgLuI2CCzN62BjPAY40i1RwbtFJTVB
+Wz0OWKDlug==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavcodec%2Fdxva2.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>dIvzuzTIFBVFJrn0qoIKTZGduSfWFyP0Wh3Tgb2GYKjXIy7UTIk0YtEyGWS9rsz7LyoRSjZfhUce
+2gHjkX7jug==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavcodec%2Fjni.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>67mG0KNb5iBqjLf8WsUBbf0DhqFfjYHNCkyF1kCRFD5RivmQxu8Nf4dGaHYJhW7D8O+NWWnxAp6S
+S4sUvopDpA==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavcodec%2Fmediacodec.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>G/Rpkp4N7fpvy7M3rA4xxcT4kSLshL/bpJ87muBtGeddnWiHhzyp3zpWew0QxPPOn07wHbhctDdB
+I06VrWcjXA==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavcodec%2Fpacket.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>jnloZiw/xUgR2cKGOihXBzNq0vA9y2+1XHwNFWibq4Vu4plvNipx+Nj6sttomGjh3cPwEGHHtEO/
+aj9+NW3pFA==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavcodec%2Fqsv.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>06SaoDHH1vWcTA4HIoSpamiYgL7JIerkQQSSOCU7ww+jwIDl6LNUtFJJJjYDfw45xuWxaLDq8Ep3
+6UAUSG8JwA==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavcodec%2Fvdpau.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>b4Z1mo5rVNlhSh73Sgcz19nw//Nolzi3yu432c8e5Lm0XtTpn1x4VwbEKgJsJ0zmfYCpstjAOwQ2
+aHoDdz3V0Q==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavcodec%2Fversion.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>Xu46mzM1LHW3ogY5idC9MHPA7zVqwKetytmDLdvuob+JYt8u6wxGdNS03XOwyrCnc+lJgErpnZ5h
+ABZkEqrxRg==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavcodec%2Fversion_major.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>J4ROyKA1ohAYxK2gvNOzwaGibHiZXQjw10v28XnsW6uszp4BdLyO6CNitrz82nZawYwOgKUhmh+l
+ZkWzEY/JJQ==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavcodec%2Fvideotoolbox.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>w82BpO0CvZl9IPGpl5RbJRu2cnRM0PbiaYq+zS5xX2yVuKOW29EwFO7AQCz2Qvgi1wyQNw8gYiTl
+7rTE/xrjGQ==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavcodec%2Fvorbis_parser.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>gtUK11gfn/s6FI9u66rl0uRPcUJvjUFHuSFSC63mfQypyVw/IGGXhSyDG6hrRlcR9v8uUcXIctte
+ngh35yLzYQ==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavcodec%2Fxvmc.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>hpXaf1bJmXlFmYFxcCG4k+FURtP8qld43biNvf9OUVGNrev8x7eme3prj7HMdjGCuU40dmBnc2lG
+z+sr5ifEbQ==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavformat%2Favformat.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>4mwyESVerbgHRkKcTNr7oAoLD8ZxthqxQvMybHqMYsZvVi/aUDvspDwD96SDtA+j8kte+4wxl2G/
+9srx5AU7bQ==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavformat%2Favio.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>3jqhm67B/H7vH/VaJohaRnQzUxdWhtAeylZemycf3S7A+gnIqadtPS4HwVzc9b560PBipucr1Rgq
+TA7axsUkqQ==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavformat%2Fversion.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>gavLCyFSqVwgBirN+afPF7cUsgJj59JE/RAaL70Bf2HnLNdx1Zb5hxyHOR+QiPIMUT05oAMSZLaj
+IzIKB1nedw==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavformat%2Fversion_major.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>2tizY9HNZNURPs7yN5WReJQqAMbJdMG9OOmOyzG2RkfeP8CoK2RGH/DNwdqM+mEwUJO1VlH7LLIo
+yTpmjV5Shw==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Fadler32.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>XR14HWn3qcNmHXjjGvfci5NLNOkDAEpOn11La1hUxXs7PR+JATAtZ3GotqBVxbg/Odsx6WLqrKVP
+J04fpyidlw==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Faes.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>qo28LrVisfrfEWbR515NNSwqFsJ19i03rCl3fkjWkrk6rSxelDMf5x0JXaCFBiYOc/ZeY7yHNczC
+VOuoCqFeoQ==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Faes_ctr.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>/x5xCo2knrgOhY02wjmmjuufbKNSKh2ikHRfJA6Y2jPXHjrf6dR1WPbzhJ0Ns1gLKZUyEOHZ5EyE
+j27j/0+r4g==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Fambient_viewing_environment.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>mQzEC7Kwvkev9p/EoOjzWGTthzHYqOfUC2RidjmtttByVCrzEIwt2VL1mmbnSKwPyVYUQl0B0NoO
+pD8Rv9XF2w==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Fattributes.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>SLCiYQasYtZT78MUfvTgtW2ybK6p7JYTSpWgL8aq3ESpEhFLIckbvStiF6pT31XyBA09wD4kEHRp
+7mF5JK7wGw==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Faudio_fifo.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>SQpmRfChj2gbZtYgz3cMh/xXF1FP/Tv8AfUkZP9m98qmnzbHJmPmxunefzNTfgk1ZR9Kv5Xy7Qup
+J6qwyEbzZg==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Favassert.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>5Z0nq0BKVaskLPLX1BnW+d2lDx1lcbmtL5UnsnI/hsUjm6Mu/w5YvUjGJMOu6ZYgxVkgZ1oC4LQD
+hqPQelW26Q==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Favconfig.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>HX4STDDek7iELP9B/J13yMz6vFDd2JsbF4edMkcIu1YIoWsNXIhZyjYtoq4p3z/3zGPv7SV1b+SK
+61q8jZYROg==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Favstring.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>2j9sDs06XtpyboXLgqgkZ5D7gd4NUleBZO09KudElsY09EL2qDwes8Ve/6DakfiukunjcstRtLM/
+stuUWwEQcQ==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Favutil.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>n31Q+5HqbD76eCb9PoGmZDSO000/6FiyM5RGlmEFEH2XR4xzfojv7x2u+/F693/k95vRA8m05mVR
+dzVGYG9OmA==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Fbase64.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>S0oT40gZa8ryQMkY9VfujbPCumEdrxfysN4npBLdS13nuwbEjH1mGpLzay27SYsWQTYNIcSipJke
++EJnP6zBSg==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Fblowfish.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>RcfIA+dK8GHEGfuv/6QTg08GQhPjcHyR0C3wSpF68IfU3hXTmCm/Gqo6I5gJNipM9AdbcsbV+5Np
+37XyHBumdw==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Fbprint.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>YszRgc93iwLhCPnEckkECFIVF6RJSA7L9zbXl8MtHjo8s/ctaWehKe6SX6Yw5aB6aYZkNd0e7fwk
+h4jJm8fzMQ==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Fbswap.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>CrDy+Fc1Ffblj5iOaMw7ohu5uc8KbCVuQxuoVn/wSu5TriRLeZjQHxI6rJ2T9DQ7SV5pXqgLyjGw
+ohpDc3PTZQ==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Fbuffer.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>m0HdN9bGDD2pMVI6Fagp6tg+iVnclhHHUm9ymmkOgNeBKwF+phMJFje3lb5nkWS992ydDm98mYTp
+gJW8nykuHQ==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Fcamellia.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>DKasel+iGFg6Kh0ofPFHOYeGFIj9tFV7TWgZm3o5V9yubIw228ukSoteWpsPV5OANcHfAQ8+exDw
+32XoZbA++Q==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Fcast5.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>gVhBydOZZqoZZioqS2v87ZG+Yh6eFhCTksraqFXxQQz8mwnR+AJXWJf3H8CpVDG7WonCJj3lrtf6
+H4s/K4ecZw==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Fchannel_layout.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>gCfQ8kBjgXwlP9d7BahD+8FAVLsiJ9AWGwAZHCyZSM3Rk7CheUYcbv8pt9p+YUnrkUgz/5andiFR
+pM0Og2H+Ig==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Fcommon.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>3cQCp4gQAXR+f77+zA9YB3peTN1vzARTmShnlL1OkKIcGt3sDEQOfddR3YJBNdeTtWI2HJWTIYna
+6+GX1vDwMw==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Fcpu.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>KCBWRx8rvI4+b36P6E0eT68cDjwv0SVRPtKglK35QL290ry03Mn4EljoYeRITzI0ysnDtZ8I9Tb9
+GuQvh2PyhA==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Fcrc.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>2QNAqc9LJg+b70InAqOMGC9bgxhcf/5p1LbRn4q+vH3831K9Zk/YOIHY3ogyxqmUJNgFntbUktR1
+774cTXprvQ==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Fcsp.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>X1UrWmFdGBxd9gdCM2cXmOGdKeBwSDNdI202ZK7ElaiGgyvc9SxSJ30e6yPDs0t6N3AWlTg4Fc/M
+9oiW7vYHhw==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Fdes.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>DdwNBmOGoHS1O8z4iCrXFhVPLzA2AybebJuPUx99UINx/RCgYhdyEEr5h1TCQ1o3ZD18kHs5EPPq
+ZgA26nC5ZQ==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Fdetection_bbox.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>KjZtY2cr/yV4j/DXqv1Sc4ECnvTUG/I4ATNNc75K2WAPh5jqvtETTzcOQmZZceMslNY4Ge3PI3vG
+ZWKFswzpzA==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Fdict.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>Q68NHrXkBnjdaCWlImUNV/i+iJnhMAAqaV+AMqliFEihu3j+nFvGGIGe71abm15eV21kjita/WW9
+BfskJDt+LQ==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Fdisplay.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>xP5dIkYXOBS3aMdF+zvOPefFWTRzpoftGbpq3HedxN2nqHdeuxgrtcfUwN933FTDfHICocHVoR8p
+Jm349IhStQ==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Fdovi_meta.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>ebsCZUcQUdYMhiTY82Nv2FBOI6RC8k4bC5t4Mighj3bCuL9aXAbIaPbTWESwgJoU7iYFDRohQTaY
+SbvS6rqHgQ==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Fdownmix_info.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>zdQgU87hLpig9A30Xj2wSEbY0ug8FTPQsjEZctsLG7TjlpLzxsDwlobXIMK9kSe6Yl2JkbFj6+r8
+Krj3UAXcrA==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Fencryption_info.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>b0XwkFYS9fxT1evgiIOBxtEcOyUuK0BhipIjDAC8fOHaogGHZurYAEGRnN81DmiGmE2fdWqGROs3
+mv/JWQMhOw==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Ferror.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>9GNxBl7bsQt12wnuqAO6Y49Lfqqsv9j1Lvo5j3Hqpy2WLVYlQ8i5wssWW64zoC39vXvQR+y6/QRM
+yUMI67yHfw==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Feval.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>TDIb8vWwPbgWRPGvIP40KWrHgfEdlN8duh6u1HXCXGqp53sf7sTKWCX4ttQhDS1pLO3PHtGze5hM
+pAUpnxyH4A==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Fexecutor.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>CFPNadA70+4AB4OAtFz2RDs93V6o0AA5uRLHd/6OwVCZ3BmBiqf0dVreWQ4cO5oDZH0iPrmGlul7
+q+9eDI2mfg==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Fffversion.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>boRoBW6PY9lOD+njOGLC0aDuEsOQj0jDa56UR4VVXsFrWOytzO2u/aST9NJDX1xZ1iZwblMjpN95
+Z0ZcpZlOHQ==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Ffifo.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>ppu+bMHJRlFnD/MwhPs4ObxTieVxz172IXwOZ2zHtDtGnVjPIxUiwE45NXkipVE/oWc9iWwZg4yw
+THg5vNKJKw==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Ffile.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>MuHo7wIzMu1nCwrquq1t4k7Us+YaOwvGnSk2NCaRWjgDvP83OE5dcsqxEfbMYvWRq/swv1OTL1YD
+a97EjGzk2w==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Ffilm_grain_params.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>5ciUcvI8lMhOZ2At6XUfahaxVKnajsRf/9YBZz42RtDVH9Z7kBlsebg3PsE2rdiqcEtF1iQ1N2Vq
+wAdnmR3Vtg==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Fframe.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>oJiPcj8/nXgEzBL9Lm4kbDI6XGWcU+tk32C/kwlQE6yhDkLSay8Y5bSn69NkcT7JyfXbuD4RP3JK
+JhTPtZJGTA==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Fhash.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>Bn1eRdxlbiBkE4BLK93B7Nzv1WrpdolhCcRICCneWBb7Xlp3YuLqkFZntTv5PDGn/5hqKusDrjc1
+HiVYthuQjg==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Fhdr_dynamic_metadata.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>2xAiU0KvgVbvQFHUEbz7ljEwP9inECgUozyKZPRBDZ7l6lk+O7sHZIbWbpISv4nYQSjKsKNIiz08
+cApmpLVnuw==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Fhdr_dynamic_vivid_metadata.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>QwWhutHgGNVmA588TPEhap4lgCWQzPUMAwqcC7IRcdEI2gjHZ8SPOWNZlStb/mAfCIIz88lHleUS
+ojrqoptvHQ==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Fhmac.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>8UFAz0+nSQNoekss+4Nv7aJY6x/3XCZ3LLF6kmGmMW+fdOLPlqAmGzj7/Nfy1oBM8/a/fsM5bKqo
+NTKF7cnvrQ==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Fhwcontext.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>rQfhMpBOw1zOBVh4EmVo7pNOEXLl2BflAivY7oRam36ISzfZBOvVhXOkW+dN07wo47zkCNDqdFy1
+YqUXY1O4NA==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Fhwcontext_cuda.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>lJLkVvZhdI0lF2/4J/wnWDSeidwTrZxIOz1RTFhM1g5m9TtvkQxkN/YzRvBop8Zortnu01bsYrdB
+JU5gT+GfWQ==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Fhwcontext_d3d11va.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>ezXWOLQFgHcoWxenx3NiB5t+4AJZlJmK+eBZvkCT1qYCKK3Lf9dvS9kouUzp3ro40vukUa7UV1P9
+W943tBBV+w==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Fhwcontext_drm.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>1Dtyc5ltEx58Kw+SzSJZh5mIUeCnNZWeTbPDdQtBIBAIm67sFb3/7kd+tT6NfvwMl6ACiIDeHDK9
+HMP8e6LEdg==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Fhwcontext_dxva2.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>Q5AtbhU+ZxPtbXe/1ifI27/OBele6JqiSmtR2C66eCODtT+cZw9kpiDHyHCkDibiX7K3bG0MuYri
+E0WMZe8baQ==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Fhwcontext_mediacodec.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>34Mk72DeIdMnttSjNOepnbEL2oBrJmzToML3DO5OV3ykVWEvWPMtyC706ZSw0KNs2eRs9QTnH4nG
+nWoB8z2GiA==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Fhwcontext_opencl.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>Jxg4k0y58Cc/BkEVZIYM0JKVse2bcu0JwvzAPXE4IZCfHGHlCBkDCsFJ3/CPrkANDHhkk9ubTZeR
+Bo1ggtOj9g==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Fhwcontext_qsv.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>TqIajzH5mbrdz1aNUamT6PmwNN6+na+wv0T9jBV9Kv9WSHtzRUq0sLo71D94qnGJ7G0gBJPA1O71
+FtQjT/09MA==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Fhwcontext_vaapi.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>3RyFWbs22J4fmlQBUA1zf0fqbvXzCk+ULDdWY5TZt6XpacnlEu0OVJnICvaQh8inK3ur7P9RkWbX
+VouYS1mXXQ==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Fhwcontext_vdpau.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>eBgZncvG6q+K51sLNrLyKYxKDWgzRvXDLmF0eArhM1+nCZn9N2I4LON+VZvanPtLLn/j7F5lJdYw
+kMoWH+mEig==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Fhwcontext_videotoolbox.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>ozZCsWp41Pe7yHpj/qmkNDO5vLSVhH6cfWwTTYHyaZ/bPmkwDPmKZKYcVF0hyXxEA6YZdeR7Rvz5
+R9gP9Cbz1A==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Fhwcontext_vulkan.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>PQOx8RVVKyFuXgv+mHHJx5de2n2271JxlwFGGxlXjbMi0J1ryj6fzQZqgYolIIB18kR3h/qZLicR
+uLuEmpOg4A==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Fimgutils.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>R8yZGPyIAyVL4zj3pvB1l5DW3SL+WSkJltFaVfyT/R32Oyw8T1d4Qb6jk9syRt1iNiQLTngrRI1n
+oLoJtIvajA==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Fintfloat.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>9LouvNkVMHJg1LXy6HIInFUq6TI+IYAMsjlG0tt7drBrOFNYAQ+sZX4bez3196PWhMfJhK8WISME
+7o7mvL7pIg==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Fintreadwrite.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>sWmgrY768bydu4oY+TAuxP3OhzT5G9HYpLXdc8DjSAwaQks7b0D7PZsSaDz0cAGxQalynVNEiQYZ
+C2r6j0KxGQ==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Flfg.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>VpyGRp8f3ELtU6GKNWij0zERrRUHAbnzQNIuUIJ5GIngxuhDmiH/f8K2UK64L18g8L/NTTAxvX8S
+NL+bonlbOw==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Flog.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>9KmWAu7KT3R7XM1gjh5sAEtG+xm7aGTdWGOznMBXHCzGMecemK4bxSaep2x/fwx1a8AF/XF+9XHF
+LU6cclpygQ==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Flzo.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>HMpgh1LmDnW5G19/GKXgdd+q6UyOatbXyHzhDTaM3iFbbfxP7DY69+OEvEoPX2gLq9N0ZErArloi
+noh3lpZXDA==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Fmacros.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>9JUfWOFAfEgt5QuZD1koy7wFQYFOnCJrA11P/MDT/sfVwWc2fKsA+UVHUnh4CsT65ARd2TZlf84z
+52zzkWMnWQ==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Fmastering_display_metadata.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>8/o+WIX/D1ycDDZcAhKa+w7JoFsMpMMhqVr9EwB4Y3QNWseSpdcHCLI/Vm1YkJNdnV1PXJRKXKKc
+Bmlvrwe0Rg==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Fmathematics.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>suEiuCWLTNJsdOetvowB6JJLWynz5jkjYcfJxEs5SB8cNsKKbEXha2XAHu/6PKMRQJhAJi8MUaDP
+TJxWOPnmBQ==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Fmd5.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>2ayGFuCk+CJGUxxrlWFUUGREVnk/dRlxtNeRGFmK8YU3fLOnYCr7m6w6GYgn10UujRNX/ioVuCXI
+0vt8Xl9fCg==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Fmem.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>KMwa4aOGUw6CMr++kKd/jE052VXGbcu//JyMIPOo0kogZuewiC98Rv/ocnH8Np7v8lvH/CQ/UbHT
+6Aa3KN9qBg==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Fmotion_vector.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>TexqUxIPjJtUl15Mq6/37UWj6jYE+t1lbutmj2oZV/UT4EmYgDK2XTYj1j8qE+PrbB+NZiQYU3Cs
+eFTQHFwHEA==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Fmurmur3.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>VyG8wVcG1jIDlay4b3KVaEHZRCDmiuWVxmaEhlcjLtAexBNngDLE/C6qleo/gxOvlvMDJ+Duh/hi
+jDFOhS9vXQ==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Fopt.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>maLF8aviDsa0Xz37BjDNTpzhyiaY4rb1lyA+2Y7kcgVSSeFs//BkU9UOUhHkQzhWYMwFedU0iTFi
+OMeBjkUu4Q==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Fparseutils.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>5WgZzyyv2Xis5tkpwACW7jHOejZ2pLXGZmmFV/yWcxM3PLVQ33PfoUq5E/UcVG5DH70lFh/xl/us
++HOae1bRXw==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Fpixdesc.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>B/k+VnRKOAo74wjJ5LAqZM1jMP5V7eJhguHTrSgi9lPS49SZwtrSVvRwCUaZKZZXcXlAh3JfcxQr
+bDKcASN2+A==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Fpixelutils.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>OQNmcHtnijPlT/yW3HhTbKobFX56HaMbNKq9Wm2yzlZXE0Kr+DLZhdtkKDRvWfoFeJY5gD/jesNB
+f9s1hrhvvQ==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Fpixfmt.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>COayThKFhSH0Jl75WtrLNMwGBZUOq0mGnSDkNa9as3EWfXU7aBAHISTPYN49sTnccIiB/NBBh7NJ
+/BDEfg/viw==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Frandom_seed.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>Mazv7rVMteo5dFsD+Gtw7VWJPCOJ1ty5adYdObPgkbGYTMMoXJzJmwCPgFhJw43EYnBhrvWdsDXX
+ZOxUoe49Cw==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Frational.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>rJhTrGW8W6tQerJlsGHBXWXAPBQ/kz/SRzHd9l9yqb62SUlp5IKFVsEXad/epGTZZWdD/pqQg7ne
+zO2q2GpQjA==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Frc4.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>osRYAmPPN2pPzT4HupVQy6yRdXpDlXo2ns/1drW0G5pUpICKknkWwUkU+CPvua1UWsMVnvyoVK/3
+kimyWC4FSA==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Freplaygain.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>TexCuopqZ1xVTQZZ0EGxfPSKElupFhYPJRTFlPJmSpSFoToKBfLlIGmDJkJ3N3CDl70kCfGicNVd
+ctWWqK2XTw==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Fripemd.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>6tfRLEwC1Lk3sytjrx8f2YIbC7DezYF/yHVTXNmi63wrawVrg4SzRQU58ld1VGJ9/+ZkDRpkE9Z7
+4kOsbttAJQ==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Fsamplefmt.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>/XssJGhEfD0XSFAFfAVvN/PSGoraDyUvlAMdzkcZASyMYZ1sJbIxwU3EFFFxecwoEuqEUn2zKbpK
+3EGffP7hCg==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Fsha.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>znwapOhE9dzODxFuMk4B7ljjCIGRxhHwcTi21292u9Mzmkz7KpSxEzXiD30V0AibutamNY4Wxk8B
+CXUahlV8xA==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Fsha512.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>5XWiaR5S3TlSETWiae6gorI3D1D7IF/ePom4q8b3/f6fF/+neOFvWpbWvTJHM3a2pxw6h2CIde2J
+QxdU+s/58g==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Fspherical.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>mcFqiYz88jZuqptz/2PlPal9rceY/12DjCJ+aVf+mLNPXRlo1BU4GJA6gsOS+SXJAhz2ZOR2yAUZ
+Ob5sKRT5Bw==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Fstereo3d.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>qgDF8tQcc5y4NJa4BX93Aek4vbffZYWMDGankVxyl1nav3R6Yb78LjjxG6LY3Zsxgh6DOIhK29ps
+3dDKJmHrqA==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Ftea.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>IGlQ54LcyK5gtO70rj3fZZxe3kTnRTQF4Hcq9/IFPg071Al1mXszw3YB2biW/6aP5bp8bwYPx35p
+Q5M6CEcusA==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Fthreadmessage.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>/AiFrKq8qosiOpP2i6aVV8rcEw4Bbv1LPP35P31WYhCQesBgeextQCNFCuK12porUr30AqyBRBVd
+a5mnckgj7A==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Ftime.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>q0oQwne+DikLf5UtUlIaV3ywdqyPSFH/ISUjlku3FGPxnqxh2Vc5z4PMmEkCoyW7SpVDVIEGtcKv
+0CGbY5rguQ==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Ftimecode.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>ismhSw6t9oxmXSbaC95NbPimRMv3O9Ci2Z7q5dsgdPo/8wzojMeVu61vruaAn6QCqa5jyuh3YUHf
+34MVzFuluA==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Ftimestamp.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>4gmfhAM1o61kAgNqvrRgCPbsWuqgbb8D/uPc2vXQgIqqPLssF2Po7Oh3bZ8JCAnTItkNWsG19Gdw
+E37PLvkBGA==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Ftree.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>Ji1qV62+57lt2Q/Aukwl/Tindpin4iaIVZsiSbu3UP24C7tA4A0PeMvZWgrHC559peasBuLkk1jQ
+TazbibTNUw==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Ftwofish.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>DO/y+ft8Rx2m2DkcTC/aH4xUfcn7YuexiriF8m9ux0qK8e7KX+0fedDRBeShAtl5v5tK+9s8Dqg+
+G6HzprQWpA==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Ftx.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>y/vKFJ1vTEm7xuGky1JBZLYMFysB2m31/toBDz6RVvTdZLVnc3hMxbKr/g/r2xxZvoTxGbPtXOLh
+Qh+2PoTwoA==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Fuuid.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>O6gq9OmxnFo09L31mVpkdf35mORBqI566YiJLTHpz/0CCubHebkWzQsW5JgnUCVs/d3hUX1I0pHU
+oAcUa0954w==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Fversion.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>US0lnAEHP/ujPxeKxN3Sj4/MvvPzVyGN3ZNcLv3ItXlc+ChhgsuSZLJH0PQmqhH73IjiDeM4ViPm
+e8PTRLiIOA==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Fvideo_enc_params.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>R7e9PBEHwT7ViM39oMvRDu94Qw5Z7/lQeo8sP7P0ZO2ELRw5lnX1urexGvGduhtZ8E7HcNaAGysT
+lstekNeK9A==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Fvideo_hint.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>9jtOxvlT6aA3lSxFpWwHMhRsc8Fgb5F9X/+SXFEFDatnkpsOECwsXu3RkK4MyaIGH7GHhowWtXH2
+Az17PQ2lJA==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibavutil%2Fxtea.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>NIeZ3Y5nWYlnOABfMvt72wHSCTA5mfgNWDBlnrrqnFoeXu3sNcWG1qMMg3DSnM+paxpGdtAEuFK4
+VSCOl30Dhw==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibswscale%2Fswscale.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>lkfp2RLKP9KrbmyG1nBi5/MzvEGjESL8kBcBQ5mSurRXGOWqHgoQRiK4cjB1yeTU0Z9iVhGwOFw3
+HVasu5Wwow==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibswscale%2Fversion.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>L/tL5RmD3Yt+KtpjKFcQeQplo5U0pRzmA2Dm5OxfXbOO+Nh/dd/olYOW/P3Wgbbe290A2vZBsmYW
+GOWp88HXeA==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Finclude%2Flibswscale%2Fversion_major.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>2A1mkINDcfGcBuBw2Fn+k1xftFL5TDr4BKy48il4lfehRaS3g7JAsDjRu0al96GM9T9pzgQLhwDS
+ef8xrZY/Vg==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Flib%2Flibavcodec.a">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>uWxv81ERTRZPUjEmA8jHeMU7akm2KHzu86pA94IBaUuMzRb9jvkJ7zFWXPF90esBUZcYty7x27AT
+ijK4IpfwpQ==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Flib%2Flibavformat.a">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>XliHvQE5ZStzfsWfTB4ZFHBzgzIqPhgeCH8ed1s0VPklp3aRH+wwYqNkvrD7k+O/3mz888MKVRGj
+4MtdRn2PIw==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Flib%2Flibavutil.a">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>OcPG8YugeocmwLatCI3Da2ZSHzdG9n1KtDYo7V+Hcu3Yrn1aAwkMPje1gOndorFNlMwB9XrnYkwp
+M4mci0OIDg==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Flib%2Flibswscale.a">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>JgTtUtPbIMAnm3PLZUcj4F1PRWxl3AtQ/LTzn9dQd3mp+zq0Mb7/RXVEtNTQO6QaGj3/J/UUl0go
+i+SKKbQnfA==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Flib%2Fpkgconfig%2Flibavcodec.pc">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>0KmffwpjowgSOBhejclTBtBhfF9KaTjoy1UDGlUlEq/C/V3XS2TAphrdgd3aEL5IXVqDgtXjo62H
+TWK/Ji9fOQ==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Flib%2Fpkgconfig%2Flibavformat.pc">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>timiOY8qGU1UChn/ITRf5RfbL+ojpkMXXQ/W1E17sX/4oQslwkH8OOUMxyDO7b4pFrjzld/OmZXG
+QQjmBSZCPQ==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Flib%2Fpkgconfig%2Flibavutil.pc">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>TR0Ocy12Fui0BzpQFGL8gzqcVzUidLady1qvGkqvCCfUZrrLiEVlldoodY+tSdSITP91eIkERnKZ
+LzlKkI6uzA==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fffmpeg%2Flib%2Fpkgconfig%2Flibswscale.pc">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>f86iLJ+Baq7IW7MkZ66ZHrnEQRG/M7c3m7tFE/k4/bZm0ZupsGYUeoNs3CorcoJqn4WG2JffJ0Pq
+TcAE2RwjMA==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Finc%2FVideoDecoder.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>SPu1zGyutqvnLjZYutP/ei6ByhQ1iUGnJWl6zty8nRAy+Qe7i9WCptNluFAERLp/IRKBXPendwaT
+IKC8LTpakg==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fsrc%2FVideoDecoder.cpp">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>LypaCJRHMi8RlMuqsP1z3Ai/0Zcfa4f9dZitqKXPSAi7xbiBysjnmqSkPRZ8LQ1lnCJWIubOWIBk
+lxViDsv7Lw==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fffmpeg_module%2Fsrc%2FVideoPlayer.cpp">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>DO48rErh5wl9jis5lgIu89KKW5gSnrBa5lQdLtViN/orN2ii0jrGQcFCb1odvrCKL3gCWXHIUKDb
+juYXC0SkSg==</DigestValue>
+</Reference>
+<Reference URI="wasm_modules%2Fscripts%2Fwasm_tools.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>EkN/xTH3etiggojaCi71UKgr1X1+AEwUDLSMMg653t9g9F2f6zJVJwPp7cOHiXnMpfh9+6OqND7f
+GecJtT0Ufg==</DigestValue>
+</Reference>
+<Reference URI="webgl-utils.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>Tw3EBQqppAuWKdgadO0KfXkTxg+xLX66rtWrs31y7hss9s8ZVOCtCzxzB7LYERPgqheqCU6nuQmq
+yVgWi8gr7Q==</DigestValue>
+</Reference>
+<Reference URI="#prop">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2006/12/xml-c14n11"></Transform>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>/r5npk2VVA46QFJnejgONBEh4BWtjrtu9x/IFeLksjWyGmB/cMWKSJWQl7aU3YRQRZ3AesG8gF7q
+GyvKX9Snig==</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>
+d1I4CXXxSQMkW1iUkBg9hnaXBpJYTsS/fErrVq6d03c8X0N4pnb8yWED2ehuupXvs15X63Eg3nno
+idp3aJ+60u1nUNTr9aFxlO3OBIKxm12MnUss/gTCXm/h2UI6KTxmm3SVZ5lNWEwz7Ljq0f4a4Vir
+Y+m57kz0QM6Oeqd4es7ihHrs55VeE/niu2kit0zci3fa/eH+0rEVzenF07Wli7wc6KQVHX2Xy5K2
+cjs1qkf1x+qtgPKdrP/4itQWbJaw1B279bgkp1x01QcsqLuAQxMVDb5ijYxiZclE3MYxT+naX2Ya
+5vCROhXqMZos+oMKaHk/MuH7oIvmAFyBWGI2AQ==
+</SignatureValue>
+<KeyInfo>
+<X509Data>
+<X509Certificate>
+MIID6DCCAtCgAwIBAgIBZDANBgkqhkiG9w0BAQ0FADCBjzELMAkGA1UEBhMCS1IxFDASBgNVBAgM
+C1NvdXRoIEtvcmVhMQ4wDAYDVQQHDAVTdXdvbjEmMCQGA1UECgwdU2Ftc3VuZyBFbGVjdHJvbmlj
+cyBDby4sIEx0ZC4xCzAJBgNVBAsMAlZEMSUwIwYDVQQDDBxWRCBERVZFTE9QRVIgUHVibGljIENB
+IENsYXNzMB4XDTI0MDgxNjE0MzU1OVoXDTI1MDgxNjE0MzU1OVowdjERMA8GA1UEAwwIVGl6ZW5T
+REsxCTAHBgNVBAsMADEJMAcGA1UECgwAMQkwBwYDVQQHDAAxCTAHBgNVBAgMADEJMAcGA1UEBhMA
+MSowKAYJKoZIhvcNAQkBFhtjYW5AdHJpYnVsdXNkZXZlbG9wbWVudC5jb20wggEiMA0GCSqGSIb3
+DQEBAQUAA4IBDwAwggEKAoIBAQCNjUeUzjyf0+raCEnrQHpU9rjK/8KWtI2CG0DWvU9kf7tNFG75
+K/I5ZCRDLiImYoqiLG497xmGvDZL/d85YVsPhJQ9vFUX2kf51t6lO9UNN7loYWm+p8z+OzOOAxkE
+lGajapUicRk+nA4gY/zdk8oqcMTh+/PsIXJn5O/1NNPGbzLFj8qSr7x1ZxEqRdQZbRgs7OJlBTk6
+BER9Z/IHwTIlxft6g3wI73DtBJNjwiqGjAyQADN473ez4UvC1E9x72u1IsVjxBN5XQPaPsc1yVe2
++XyvSvRqgD/jCOsohwIL1m58zD8uqc0p6bcKfxllcw3M8ohxThjo0X1RxJR787ABAgMBAAGjZzBl
+MGMGA1UdEQRcMFqGFFVSTjp0aXplbjpwYWNrYWdlaWQ9hiBVUk46dGl6ZW46ZGV2aWNlaWQ9SkhD
+S0VIQlRHWVRCNoYgVVJOOnRpemVuOmRldmljZWlkPUJEQ1BMV0gzWEtMVEEwDQYJKoZIhvcNAQEN
+BQADggEBADddTj6RkaDBLQ44/LQTbI2AAfarvKbV6s04te9ENm8cesE3sNgOW6CiYPxkCCVoNSoe
+R7sxH8qLwYhWClrPZfmAJogv7ePN6yuWx06zAGXQ+6se3rjnMp5kAECdSaKgAvq4QHeYjE0VeR+6
+O2rxUeuwbudHfv5zyIwl1cGfgeBKYqs/xCwTOEJ/T89PYl//UHF2EtC03EKxvIuIcf06SRh4ucqs
+apUU1X31sgoaLz7IbKBFwveHOLUXLqDT4cbyzKxQiUAHmboYgbMcb8rL6Km7FsusK8aeITmH2ejD
+Y0pxDkVBSLtVNgrBnGMyHTyEghvlL3ZmA/LXjTAb+5sKjiw=
+</X509Certificate>
+<X509Certificate>
+MIIDrTCCApWgAwIBAgIBATANBgkqhkiG9w0BAQsFADCBkTELMAkGA1UEBhMCS1IxFDASBgNVBAgM
+C1NvdXRoIEtvcmVhMQ4wDAYDVQQHDAVTdXdvbjEmMCQGA1UECgwdU2Ftc3VuZyBFbGVjdHJvbmlj
+cyBDby4sIEx0ZC4xCzAJBgNVBAsMAlZEMScwJQYDVQQDDB5WRCBERVZFTE9QRVIgUHVibGljIFJv
+b3QgQ2xhc3MwHhcNMTQxMjE5MDkyOTQyWhcNMjkxMjE1MDkyOTQyWjCBjzELMAkGA1UEBhMCS1Ix
+FDASBgNVBAgMC1NvdXRoIEtvcmVhMQ4wDAYDVQQHDAVTdXdvbjEmMCQGA1UECgwdU2Ftc3VuZyBF
+bGVjdHJvbmljcyBDby4sIEx0ZC4xCzAJBgNVBAsMAlZEMSUwIwYDVQQDDBxWRCBERVZFTE9QRVIg
+UHVibGljIENBIENsYXNzMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAr9u+prHP0MtG
+DqQmDtIpFuFKD1mCmYPEA4OZ6zRH3f3t9cUmXtmAGEDPinCHpw9UdGU3JkNnNUd6dFf2HkFBIm8+
+LepRxR/rEmkHsBHFaLbTDVNZnwBXVs82eyMl9wonLp74otysnLAtEA968r7MH5WwwkF73W2vtOqA
++PpGOH31LAeLFNPajAVCgqiaIKn8eFQuLta2dNrXcZXia+GTXz0PZ0oEs6k1cphhkbe+uV5NL/qW
+DjF5X1rIGxz/58AwxfF73wP7QPY9Z34vwai0tcUvGAkNXW60FjTj6iZ2N/UxPsuhNa1sSv2srxhW
+SBAklC3L4A9C6o8sP91WkkdXIQIDAQABoxAwDjAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUA
+A4IBAQCnzmtVT7Zr8BjemLmZu/mLmGizAl/QaufSyCLaPVnUlgdReeMdjBvtvNlM9/EJecxiWhAa
+kiZFA664lisAjQjL3bREP9HjOSSDhvx8GNLigjRKOJVivFxz0E4C7K/d9wBlstNCsTe2dRW0mhV+
+7l1kvbqByfi3kzUrJxaTOev/DxaPs9qofe/+Fvor5AcQXiKJ7wuva5HvYZq1z3f3XuEy/tIhv2fk
+to09aZTNHNjeHeqiAUQFNrtv8NbHQZZKKaZQbnrT2h4HjtfuzAHaFt1EaO7l2TRE+OEJIpSkKT08
+1kT1zqSmnj38acW/+ExcY7fABrT3oigLsXPBsYxjSAtn
+</X509Certificate>
+</X509Data>
+</KeyInfo>
+<Object Id="prop"><SignatureProperties xmlns:dsp="http://www.w3.org/2009/xmldsig-properties"><SignatureProperty Id="profile" Target="#DistributorSignature"><dsp:Profile URI="http://www.w3.org/ns/widgets-digsig#profile"></dsp:Profile></SignatureProperty><SignatureProperty Id="role" Target="#DistributorSignature"><dsp:Role URI="http://www.w3.org/ns/widgets-digsig#role-distributor"></dsp:Role></SignatureProperty><SignatureProperty Id="identifier" Target="#DistributorSignature"><dsp:Identifier></dsp:Identifier></SignatureProperty></SignatureProperties></Object>
+</Signature>

@@ -1,0 +1,14 @@
+prefix=/home/can/ffmpeg-build/dist
+exec_prefix=${prefix}
+libdir=/home/can/ffmpeg-build/dist/lib
+includedir=/home/can/ffmpeg-build/dist/include
+
+Name: libavutil
+Description: FFmpeg utility library
+Version: 58.29.100
+Requires: 
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavutil -pthread -lm -lX11
+Libs.private: 
+Cflags: -I${includedir}

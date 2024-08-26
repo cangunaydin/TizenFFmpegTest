@@ -1,0 +1,14 @@
+prefix=/home/can/ffmpeg-build/dist
+exec_prefix=${prefix}
+libdir=/home/can/ffmpeg-build/dist/lib
+includedir=/home/can/ffmpeg-build/dist/include
+
+Name: libavformat
+Description: FFmpeg container format library
+Version: 60.16.100
+Requires: libavcodec >= 60.31.102, libavutil >= 58.29.100
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavformat -lm
+Libs.private: 
+Cflags: -I${includedir}

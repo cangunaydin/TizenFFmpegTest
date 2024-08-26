@@ -1,0 +1,14 @@
+prefix=/home/can/ffmpeg-build/dist
+exec_prefix=${prefix}
+libdir=/home/can/ffmpeg-build/dist/lib
+includedir=/home/can/ffmpeg-build/dist/include
+
+Name: libswscale
+Description: FFmpeg image rescaling library
+Version: 7.5.100
+Requires: libavutil >= 58.29.100
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lswscale -lm
+Libs.private: 
+Cflags: -I${includedir}
