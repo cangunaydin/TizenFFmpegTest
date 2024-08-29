@@ -5,25 +5,33 @@
 #include <iostream>
 #include <thread>
 
+void *start_play(void *arg)
+{
+    VideoDecoder reader;
+    Frame frame;
+    reader.open("/bun33s.mp4", &frame); // change the file path to test.
+    FrameDetails frameDetails;
+    reader.getFrameDetails(&frameDetails);
+    std::cout << "width - height" << frameDetails.width << " - " << frameDetails.height << ", timebase_num:" << frameDetails.timebase_num << " - timebase_den: " << frameDetails.timebase_den << "\n";
+    reader.freeFrame(&frame);
+    reader.close();
+    return NULL;
+}
+
 extern "C"
 {
-    void EMSCRIPTEN_KEEPALIVE test_buffer()
+    // void EMSCRIPTEN_KEEPALIVE test_buffer()
+    // {
+    //     std::ifstream file("/bun33s.mp4", std::ios::binary);
+    //     std::vector<char> buffer((std::istreambuf_iterator<char>(file)), std::istreambuf_iterator<char>());
+    //     std::cout << "Buffer size: " << buffer.size() << std::endl;
+    // }
+    void play()
     {
-        std::ifstream file("/bun33s.mp4", std::ios::binary);
-        std::vector<char> buffer((std::istreambuf_iterator<char>(file)), std::istreambuf_iterator<char>());
-        std::cout << "Buffer size: " << buffer.size() << std::endl;
-    }
-    void EMSCRIPTEN_KEEPALIVE play()
-    {
-        VideoDecoder reader;
-        Frame frame;
-        reader.open("/bun33s.mp4", &frame); // change the file path to test.
-        FrameDetails frameDetails;
-        reader.getFrameDetails(&frameDetails);
-        printf("width - height %d - %d, timebase_num: %d - timebase_den: %d\n", frameDetails.width, frameDetails.height, frameDetails.timebase_num, frameDetails.timebase_den);
-        // std::cout << "width - height" << frameDetails.width << " - " << frameDetails.height << ", timebase_num:" << frameDetails.timebase_num << " - timebase_den: " << frameDetails.timebase_den << "\n";
-        reader.freeFrame(&frame);
-        reader.close();
+
+        pthread_t thread_id;
+        pthread_create(&thread_id, NULL, start_play, NULL);
+
         // while (true)
         // {
         //     Frame frame;

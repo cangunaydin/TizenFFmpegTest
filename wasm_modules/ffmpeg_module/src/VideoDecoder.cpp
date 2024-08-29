@@ -249,36 +249,36 @@ void VideoDecoder::close()
     avcodec_free_context(&av_codec_ctx);
 }
 
-extern "C"
-{
-    void *VideoDecoderNew() { return new VideoDecoder(); }
-    void VideoDecoderDelete(void *obj) { delete (VideoDecoder *)obj; }
-    void VideoDecoderSaveFile(void *obj, uint8_t *file_bytes, int file_length, char *filename)
-    {
-        ((VideoDecoder *)obj)->saveFile(file_bytes, file_length, filename);
-    }
-    int VideoDecoderDeleteFile(void *obj, char *filename)
-    {
-        return ((VideoDecoder *)obj)->deleteFile(filename);
-    }
-    int VideoDecoderOpen(void *obj, char *filename, Frame *frame)
-    {
-        return ((VideoDecoder *)obj)->open(filename, frame);
-    }
-    void VideoDecoderGetFrameDetails(void *obj, FrameDetails *frameDetails)
-    {
-        ((VideoDecoder *)obj)->getFrameDetails(frameDetails);
-    }
-    int VideoDecoderReadFrame(void *obj, Frame *frame)
-    {
-        return ((VideoDecoder *)obj)->readFrame(frame);
-    }
-    void VideoDecoderClose(void *obj)
-    {
-        ((VideoDecoder *)obj)->close();
-    }
-    void VideoDecoderFreeFrame(void *obj, Frame *frame)
-    {
-        ((VideoDecoder *)obj)->freeFrame(frame);
-    }
-}
+// extern "C"
+// {
+//     void *VideoDecoderNew() { return new VideoDecoder(); }
+//     void VideoDecoderDelete(void *obj) { delete (VideoDecoder *)obj; }
+//     void VideoDecoderSaveFile(void *obj, uint8_t *file_bytes, int file_length, char *filename)
+//     {
+//         ((VideoDecoder *)obj)->saveFile(file_bytes, file_length, filename);
+//     }
+//     int VideoDecoderDeleteFile(void *obj, char *filename)
+//     {
+//         return ((VideoDecoder *)obj)->deleteFile(filename);
+//     }
+//     int VideoDecoderOpen(void *obj, char *filename, Frame *frame)
+//     {
+//         return ((VideoDecoder *)obj)->open(filename, frame);
+//     }
+//     void VideoDecoderGetFrameDetails(void *obj, FrameDetails *frameDetails)
+//     {
+//         ((VideoDecoder *)obj)->getFrameDetails(frameDetails);
+//     }
+//     int VideoDecoderReadFrame(void *obj, Frame *frame)
+//     {
+//         return ((VideoDecoder *)obj)->readFrame(frame);
+//     }
+//     void VideoDecoderClose(void *obj)
+//     {
+//         ((VideoDecoder *)obj)->close();
+//     }
+//     void VideoDecoderFreeFrame(void *obj, Frame *frame)
+//     {
+//         ((VideoDecoder *)obj)->freeFrame(frame);
+//     }
+// }
